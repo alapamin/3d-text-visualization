@@ -28,7 +28,7 @@ fontLoader.load(
     (font) =>
     {
         const textGeometry = new THREE.TextBufferGeometry(
-                'Julfikar',
+                'AAHIL',
                 {
                     font: font,
                     size: 0.5,
@@ -70,7 +70,7 @@ fontLoader.load(
                 const randomValue = Math.random()
                 donut.scale.set(randomValue, randomValue, randomValue)
 
-                //scene.add(donut)
+                scene.add(donut)
             }
 
             console.timeEnd('donuts')
