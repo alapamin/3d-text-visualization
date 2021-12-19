@@ -28,7 +28,7 @@ fontLoader.load(
     (font) =>
     {
         const textGeometry = new THREE.TextBufferGeometry(
-                'Cadaur',
+                'Julfikar',
                 {
                     font: font,
                     size: 0.5,
