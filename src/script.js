@@ -70,7 +70,7 @@ fontLoader.load(
                 const randomValue = Math.random()
                 donut.scale.set(randomValue, randomValue, randomValue)
 
-                scene.add(donut)
+                //scene.add(donut)
             }
 
             console.timeEnd('donuts')
